@@ -22,10 +22,15 @@ Sharability:
 - Invites other users to unlock Intermediate functions
 
 Objects:
-- Users - email address
+- Users - email address, audit
 - Group - owner, leaders, groupName, Contacts, audit
-- Contact - first name, last name, image, Bio, cadence, cadenceStarts, notes (description, audit), audit
-- Bio - dob, marital status, suburb, family members, interests, etc...
+- Contact 
+    - name
+    - description
+    - bio (picture, dob, marital status, suburb, family members, interests, etc...)
+    - cadence, cadenceStarts
+    - notes (description, audit)
+    - audit (actionType, actionedAt, actionedBy, actionDescription)
 
 Permissions:
 - A user can CRUD the contacts of the group in which they are one of the leaders or admins
